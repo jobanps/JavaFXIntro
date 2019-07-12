@@ -36,6 +36,7 @@ public class FirstForm extends Application {
 		    public void handle(ActionEvent e) {
 		        // Logic for what should happen when you push button
 		    	lblResult.setText("Hello " + textFieldName.getText());
+		    	textFieldName.setText("");
 		    }
 		});
 		

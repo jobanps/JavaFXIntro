@@ -24,7 +24,7 @@ public class UserInterfaceControls extends Application {
 		list.getItems().add("England");
 		
 		RadioButton radioButton = new RadioButton();
-		radioButton.
+		//radioButton.
 	}
 	
 	public static void main(String[] args) {
