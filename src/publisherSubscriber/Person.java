@@ -27,6 +27,10 @@ public class Person implements Observer {
 	public void update(Observable o, Object arg) {
 		// TODO Auto-generated method stub
 		
+		System.out.println(name + " received new Message from Publisher");
+		System.out.println("Weather Updated to " + arg.toString());
+		
+		
 	}
 
 }
